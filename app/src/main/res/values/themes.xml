@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.TytEda" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorPrimaryVariant">@color/primaryDark</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/textColorNormal</item>
+        <item name="boxStrokeColor">@drawable/text_input_layout_box_stroke_selector</item>
+        <item name="startIconTint">@drawable/text_input_layout_box_stroke_selector</item>
+    </style>
+
+    <style name="TextField">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/textColorNormal</item>
+    </style>
+
+    <style name="Tab" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+</resources>
